@@ -11,7 +11,9 @@ import ru.job4j.site.service.*;
 
 import javax.servlet.http.HttpServletRequest;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Optional;
 
 import static ru.job4j.site.controller.RequestResponseTools.getToken;
@@ -25,6 +27,7 @@ public class IndexController {
     private final AuthService authService;
     private final NotificationService notifications;
     private final ProfilesService profilesService;
+    private final TopicsService topicsService;
 
     @GetMapping({"/", "index"})
     public String getIndexPage(Model model, HttpServletRequest req) throws JsonProcessingException {
@@ -55,6 +58,13 @@ public class IndexController {
                         .map(Optional::get)
                         .toList()
         );
+        Map<Integer, Integer> numberNewInterviews = new HashMap<>();
+        for (InterviewDTO interview : interviewDTOList) {
+            Integer categoryId = topicsService.getById(interview.getTopicId()).getCategory().getId();
+            Integer count = numberNewInterviews.get(categoryId);
+            numberNewInterviews.put(categoryId, count == null ? 1 : ++count);
+        }
+        model.addAttribute("numberNewInterviews", numberNewInterviews);
         return "index";
     }
 }
