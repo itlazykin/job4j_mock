@@ -1,6 +1,3 @@
-/**
- *
- */
 package ru.checkdev.notification.service;
 
 import org.junit.Test;
@@ -14,9 +11,6 @@ import java.util.List;
 
 import static org.junit.Assert.*;
 
-/**
- * @author olegbelov
- */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class TemplateServiceTest {

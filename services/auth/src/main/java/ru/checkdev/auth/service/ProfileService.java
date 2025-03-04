@@ -9,14 +9,6 @@ import ru.checkdev.auth.repository.PersonRepository;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * CheckDev пробное собеседование
- * Класс получения ProfileDTO
- *
- * @author Dmitry Stepanov
- * @version 22.09.2023'T'23:41
- */
-
 @Service
 @AllArgsConstructor
 @Slf4j

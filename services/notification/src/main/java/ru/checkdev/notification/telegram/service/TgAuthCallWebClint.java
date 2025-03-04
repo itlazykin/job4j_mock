@@ -7,13 +7,6 @@ import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.publisher.Mono;
 import ru.checkdev.notification.domain.PersonDTO;
 
-/**
- * 3. Мидл
- * Класс реализует методы get и post для отправки сообщений через WebClient
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 12.09.2023
- */
 @Service
 @Slf4j
 public class TgAuthCallWebClint {

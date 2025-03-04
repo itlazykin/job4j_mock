@@ -17,12 +17,6 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-/**
- * TopicRepository TEST
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 16.10.2023
- */
 @DataJpaTest
 @RunWith(SpringRunner.class)
 @ExtendWith(SpringExtension.class)

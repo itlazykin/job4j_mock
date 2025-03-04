@@ -15,13 +15,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * FeedbackServiceWebClient
- * Класс реализует получение и обработку сущности Feedback из сервиса mock.
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 25.10.2023
- */
 @Service
 @Slf4j
 public class FeedbackServiceWebClient implements FeedbackService {

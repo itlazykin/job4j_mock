@@ -18,12 +18,6 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-/**
- * CheckDev пробное собеседование
- * ProfilesControllerTest тесты на контроллер IndexController
- * @author Dmitry Stepanov, user Dmitry
- * @since 25.09.2023
- */
 @SpringBootTest
 @AutoConfigureMockMvc
 class ProfilesControllerTest {

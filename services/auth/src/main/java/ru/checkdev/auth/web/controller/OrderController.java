@@ -7,11 +7,6 @@ import ru.checkdev.auth.service.OrderService;
 
 import java.util.List;
 
-/**
- * Created by Mikhail Epatko.
- * 25 August 2017
- * mail: mikhail.epatko@gmail.com
- */
 @RestController
 @RequestMapping("/order")
 public class OrderController {

@@ -4,12 +4,6 @@ import lombok.*;
 
 import javax.persistence.*;
 
-/**
- * Модель данных описывает отзыв о собеседовании.
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 25.10.2023
- */
 @Entity(name = "cd_feedback")
 @AllArgsConstructor
 @NoArgsConstructor

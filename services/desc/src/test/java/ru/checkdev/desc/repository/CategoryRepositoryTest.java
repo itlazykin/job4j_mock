@@ -15,7 +15,6 @@ import java.util.Optional;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-
 @DataJpaTest
 @RunWith(SpringRunner.class)
 class CategoryRepositoryTest {

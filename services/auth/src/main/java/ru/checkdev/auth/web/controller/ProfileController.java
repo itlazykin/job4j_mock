@@ -12,13 +12,6 @@ import ru.checkdev.auth.service.ProfileService;
 
 import java.util.List;
 
-/**
- * CheckDev пробное собеседование
- * ProfileController контроллер отправки и приема DTO модели ProfileDTO
- *
- * @author Dmitry Stepanov
- * @version 22.09.2023T23:49
- */
 @RestController
 @RequestMapping("/profiles")
 @Slf4j

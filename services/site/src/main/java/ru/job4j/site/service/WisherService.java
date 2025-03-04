@@ -6,13 +6,6 @@ import ru.job4j.site.dto.WisherDto;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Интерфейс WisherService
- * описывает поведения работы с сервисом mock, моделью Wisher.
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 11.10.2023
- */
 public interface WisherService {
 
     boolean saveWisherDto(String token, WisherDto wisherDto);

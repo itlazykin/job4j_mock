@@ -37,10 +37,6 @@ import java.beans.PropertyDescriptor;
 import java.io.ByteArrayOutputStream;
 import java.util.*;
 
-/**
- * @author parsentev
- * @since 25.09.2016
- */
 @Service
 public class PersonService {
     private final Logger log = LoggerFactory.getLogger(PersonService.class);

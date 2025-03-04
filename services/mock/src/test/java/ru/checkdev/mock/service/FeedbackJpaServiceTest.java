@@ -19,12 +19,6 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
 
-/**
- * FeedbackJpaService TEST
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 25.10.2023
- */
 @SpringBootTest(classes = FeedbackJpaService.class)
 @RunWith(SpringRunner.class)
 class FeedbackJpaServiceTest {

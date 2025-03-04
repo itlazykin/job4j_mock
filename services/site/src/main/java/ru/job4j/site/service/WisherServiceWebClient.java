@@ -16,13 +16,6 @@ import ru.job4j.site.dto.WisherDto;
 
 import java.util.*;
 
-/**
- * WisherServiceWebClient
- * Класс реализует получение и обработку модели WisherDTO из сервиса mock
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 11.10.2023
- */
 @Service
 @Slf4j
 public class WisherServiceWebClient implements WisherService {

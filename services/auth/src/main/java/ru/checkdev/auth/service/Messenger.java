@@ -9,11 +9,6 @@ import javax.annotation.PreDestroy;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 
-/**
- * @author Petr Arsentev (parsentev@yandex.ru)
- * @version $Id$
- * @since 0.1
- */
 @Service
 public class Messenger {
     private final ScheduledExecutorService scheduler = Executors.newScheduledThreadPool(1);

@@ -10,10 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import java.security.Principal;
 import java.util.Optional;
 
-/**
- * @author parsentev
- * @since 26.09.2016
- */
 @RestController
 public class AuthController {
     private final PersonService persons;

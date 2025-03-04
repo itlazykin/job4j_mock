@@ -11,12 +11,6 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
 
-/**
- * CheckDev пробное собеседование
- *
- * @author Dmitry Stepanov
- * @version 21.10.2023 23:28
- */
 class InterviewServiceTest {
     private ProfilesService profilesService = mock(ProfilesService.class);
     private InterviewService interviewService = new InterviewService(profilesService);

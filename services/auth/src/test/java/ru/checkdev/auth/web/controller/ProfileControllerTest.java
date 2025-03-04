@@ -23,13 +23,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-/**
- * CheckDev пробное собеседование
- * ProfileControllerTest тестирование RestController для отправки модели ProfileDTO.
- *
- * @author Dmitry Stepanov
- * @version 01:45
- */
 @RunWith(SpringRunner.class)
 @WebMvcTest(ProfileController.class)
 public class ProfileControllerTest {

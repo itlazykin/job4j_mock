@@ -6,12 +6,6 @@ import lombok.Data;
 import java.util.Calendar;
 import java.util.List;
 
-/**
- * DTO модель класса Person сервиса Auth.
- *
- * @author parsentev
- * @since 25.09.2016
- */
 @Data
 @AllArgsConstructor
 public class PersonDTO {

@@ -8,10 +8,6 @@ import ru.checkdev.notification.repository.SettingRepository;
 
 import java.util.List;
 
-/**
- * @author olegbelov
- * @since 21.12.2016
- */
 @Service
 public class SettingService {
 

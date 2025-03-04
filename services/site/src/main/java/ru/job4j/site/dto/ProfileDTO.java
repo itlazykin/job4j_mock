@@ -7,13 +7,6 @@ import lombok.NoArgsConstructor;
 
 import java.util.Calendar;
 
-/**
- * CheckDev пробное собеседование
- * DTO модель описывает профиль пользователя.
- *
- * @author Dmitry Stepanov
- * @version 22.09.2023'T'20:01
- */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

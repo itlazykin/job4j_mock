@@ -11,11 +11,6 @@ import ru.checkdev.notification.service.TemplateService;
 
 import java.util.List;
 
-/**
- * @author Petr Arsentev (parsentev@yandex.ru)
- * @version $Id$
- * @since 0.1
- */
 @RestController
 @RequestMapping("/template")
 public class TemplateController {

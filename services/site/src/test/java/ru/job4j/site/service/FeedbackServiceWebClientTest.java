@@ -24,12 +24,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.doNothing;
 import static org.mockito.Mockito.when;
 
-/**
- * CheckDev пробное собеседование
- *
- * @author Dmitry Stepanov
- * @version 29.10.2023 03:14
- */
 @SpringBootTest(classes = FeedbackServiceWebClient.class)
 @AutoConfigureMockMvc
 @ExtendWith(MockitoExtension.class)

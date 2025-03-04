@@ -25,14 +25,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 
-
-/**
- * CheckDev пробное собеседование
- * IndexControllerTest тесты на контроллер IndexController
- *
- * @author Dmitry Stepanov
- * @version 24.09.2023 21:50
- */
 @SpringBootTest(classes = SiteSrv.class)
 @AutoConfigureMockMvc
 class IndexControllerTest {

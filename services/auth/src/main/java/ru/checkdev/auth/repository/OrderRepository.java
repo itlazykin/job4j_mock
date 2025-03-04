@@ -8,11 +8,6 @@ import ru.checkdev.auth.domain.Order;
 
 import java.util.List;
 
-/**
- * Created by Mikhail Epatko.
- * 25 August 2017
- * mail: mikhail.epatko@gmail.com
- */
 public interface OrderRepository extends CrudRepository<Order, Integer> {
 
     List<Order> findAllByOrderByCreatedDesc();

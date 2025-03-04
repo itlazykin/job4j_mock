@@ -14,12 +14,6 @@ import ru.job4j.site.service.WisherService;
 import javax.servlet.http.HttpServletRequest;
 import java.util.Map;
 
-/**
- * Контроллер обработки запросов на подписку на собеседование.
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 12.10.2023
- */
 @Controller
 @RequestMapping("/wisher")
 @AllArgsConstructor

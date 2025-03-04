@@ -14,10 +14,6 @@ import java.util.Collections;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-/**
- * @author parsentev
- * @since 21.09.2016
- */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class RoleServiceTest {

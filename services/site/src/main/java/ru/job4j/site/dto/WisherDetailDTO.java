@@ -4,10 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- * @author Dmitry Stepanov, user Dmitry
- * @since 20.10.2023
- */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

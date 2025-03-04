@@ -12,11 +12,6 @@ import java.nio.charset.StandardCharsets;
 import java.security.Principal;
 import java.util.Map;
 
-/**
- * @author Petr Arsentev (parsentev@yandex.ru)
- * @version $Id$
- * @since 0.1
- */
 public class OAuthCall {
     static {
         HttpsURLConnection.setDefaultHostnameVerifier((hostname, session) -> true);

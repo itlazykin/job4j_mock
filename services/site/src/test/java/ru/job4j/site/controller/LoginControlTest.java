@@ -21,13 +21,6 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-/**
- * CheckDev пробное собеседование
- * LoginControlTest тесты на контроллер LoginController
- *
- * @author Dmitry Stepanov
- * @version 24.09.2023 22:44
- */
 @SpringBootTest(classes = SiteSrv.class)
 @AutoConfigureMockMvc
 class LoginControlTest {

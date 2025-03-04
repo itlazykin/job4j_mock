@@ -14,13 +14,6 @@ import java.util.Collections;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
-/**
- * CheckDev пробное собеседование
- * Тест на класс PersonRepository
- *
- * @author Dmitry Stepanov
- * @version 22.09.2023'T'21:14
- */
 @RunWith(SpringRunner.class)
 @DataJpaTest()
 public class PersonRepositoryTest {

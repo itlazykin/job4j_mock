@@ -11,13 +11,6 @@ import ru.job4j.site.service.AuthService;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * CheckDev пробное собеседование
- * InterceptorSite Глобальный перехватчик для добавления во все виды модели UserInfo
- *
- * @author Dmitry Stepanov
- * @version 24.09.2023 15:15
- */
 @Component
 @AllArgsConstructor
 @Slf4j

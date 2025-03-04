@@ -11,13 +11,6 @@ import ru.checkdev.notification.telegram.service.TgAuthCallWebClint;
 
 import java.util.Calendar;
 
-/**
- * 3. Мидл
- * Класс реализует пункт меню регистрации нового пользователя в телеграм бот
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 12.09.2023
- */
 @AllArgsConstructor
 @Slf4j
 public class RegAction implements Action {

@@ -7,12 +7,6 @@ import java.util.Calendar;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-/**
- * Testing TgConfig;
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 06.10.2023
- */
 class TgConfigTest {
     private final String prefix = "pr/";
     private final int passSize = 10;

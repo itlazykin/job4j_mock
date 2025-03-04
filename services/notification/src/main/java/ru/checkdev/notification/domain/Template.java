@@ -5,10 +5,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-/**
- * @author olegbelov
- * @since 20.12.2016
- */
 @Entity(name = "template")
 public class Template {
 

@@ -16,12 +16,6 @@ import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThatThrownBy;
 import static org.mockito.Mockito.when;
 
-/**
- * Testing TgAuthCallWebClint
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 06.10.2023
- */
 @ExtendWith(MockitoExtension.class)
 class TgAuthCallWebClintTest {
     private static final String URL = "http://tetsurl:15000";

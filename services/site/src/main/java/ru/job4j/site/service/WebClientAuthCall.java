@@ -14,13 +14,6 @@ import ru.job4j.site.dto.ProfileDTO;
 
 import java.util.List;
 
-/**
- * CheckDev пробное собеседование
- * Класс обработки неблокирующих запросов get и post(Multipart) в сервис AUTH
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 19.09.2023
- */
 @Service
 @Slf4j
 @AllArgsConstructor

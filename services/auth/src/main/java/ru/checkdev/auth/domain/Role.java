@@ -5,10 +5,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-/**
- * @author parsentev
- * @since 25.09.2016
- */
 @Entity(name = "role")
 public class Role {
     @Id

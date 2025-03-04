@@ -12,12 +12,6 @@ import ru.job4j.site.service.InterviewService;
 
 import javax.servlet.http.HttpServletRequest;
 
-/**
- * FeedbackController контроллер обработки отзывов
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 25.10.2023
- */
 @Controller
 @RequestMapping("/interview")
 @AllArgsConstructor

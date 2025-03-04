@@ -1,6 +1,3 @@
-/**
- *
- */
 package ru.checkdev.notification.service;
 
 import com.google.common.collect.Lists;
@@ -15,10 +12,7 @@ import ru.checkdev.notification.repository.TemplateRepository;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * @author olegbelov
- * @since 24.12.2016
- */
+
 @Service
 public class TemplateService {
 

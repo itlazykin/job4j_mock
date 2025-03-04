@@ -6,13 +6,6 @@ import org.springframework.core.io.ByteArrayResource;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
-/**
- * CheckDev пробное собеседование
- * PhotoService загрузки изображения из сервиса Auth
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 27.09.2023
- */
 @Service
 @AllArgsConstructor
 @Slf4j

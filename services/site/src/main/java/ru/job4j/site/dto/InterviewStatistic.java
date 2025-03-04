@@ -4,16 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-/**
- * InterviewStatistic
- * класс для отображения статистики по каждому интервью.
- * 1. Сколько всего участников - participate.
- * 2. Сколько ожидают собеседования - expect.
- * 3. Сколько уже прошло - passed.
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 13.10.2023
- */
 @AllArgsConstructor
 @NoArgsConstructor
 @Data

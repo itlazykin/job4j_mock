@@ -21,12 +21,6 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-/**
- * CheckDev пробное собеседование
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 25.09.2023
- */
 @SpringBootTest(classes = PersonController.class)
 @AutoConfigureMockMvc
 class PersonControllerTest {

@@ -11,14 +11,6 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.*;
 
-/**
- * ImageCompressorService
- * Класс реализует сжатие изображения для загрузки на сервис.
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 04.10.2023
- */
-
 @Service
 public class ImageCompressorService implements ImageCompress {
     private final int imageSizePixel;

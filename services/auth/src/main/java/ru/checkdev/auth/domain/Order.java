@@ -6,11 +6,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.util.Calendar;
 
-/**
- * Created by Mikhail Epatko.
- * 24 August 2017
- * mail: mikhail.epatko@gmail.com
- */
 @Entity(name = "orders")
 public class Order {
 

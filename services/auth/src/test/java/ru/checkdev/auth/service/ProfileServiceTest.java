@@ -18,13 +18,6 @@ import static org.junit.Assert.assertThat;
 import static org.mockito.ArgumentMatchers.anyInt;
 import static org.mockito.Mockito.when;
 
-/**
- * CheckDev пробное собеседование
- * ProfileServiceTest тестирование слоя бизнес логики обработки модели ProfileDTO
- *
- * @author Dmitry Stepanov
- * @version 01:11
- */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class ProfileServiceTest {

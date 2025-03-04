@@ -13,12 +13,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-/**
- * Created by Mikhail Epatko.
- * 25 August 2017
- * mail: mikhail.epatko@gmail.com
- */
-
 @Service
 public class OrderService {
 

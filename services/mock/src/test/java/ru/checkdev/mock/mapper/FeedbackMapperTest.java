@@ -7,12 +7,6 @@ import ru.checkdev.mock.dto.FeedbackDTO;
 
 import static org.assertj.core.api.Assertions.*;
 
-/**
- * FeedbackMapper test
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 25.10.2023
- */
 class FeedbackMapperTest {
 
     @Test

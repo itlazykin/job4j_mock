@@ -5,13 +5,6 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.reactive.function.client.WebClient;
 
-/**
- * CheckDev пробное собеседование
- * Создание DI объекта WebClient для сервиса auth
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 19.09.2023
- */
 @Configuration
 public class WebClientAuthConfig {
     /**

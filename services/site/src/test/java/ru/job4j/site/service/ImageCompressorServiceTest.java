@@ -13,10 +13,6 @@ import java.nio.file.Path;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
-/**
- * @author Dmitry Stepanov, user Dmitry
- * @since 04.10.2023
- */
 class ImageCompressorServiceTest {
     private final Path testFile = Path.of("src", "test", "resources", "testfiles", "olafAva.jpg");
 

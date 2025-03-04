@@ -5,11 +5,6 @@ import org.springframework.stereotype.Service;
 import ru.checkdev.auth.domain.Photo;
 import ru.checkdev.auth.repository.PhotoRepository;
 
-/**
- * @author Hincu Andrei (andreih1981@gmail.com)on 28.05.2018.
- * @version $Id$.
- * @since 0.1.
- */
 @Service
 public class PhotoService {
 

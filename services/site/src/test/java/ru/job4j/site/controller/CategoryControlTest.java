@@ -21,13 +21,6 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
-/**
- * CategoryControl
- * Test
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 09.10.2023
- */
 @SpringBootTest(classes = SiteSrv.class)
 @AutoConfigureMockMvc
 class CategoryControlTest {

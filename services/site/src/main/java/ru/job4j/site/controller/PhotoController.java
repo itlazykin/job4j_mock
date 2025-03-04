@@ -10,13 +10,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import ru.job4j.site.service.PhotoServices;
 
-/**
- * CheckDev пробное собеседование
- * PhotoController rest controller для получения Auth по ID.
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 28.09.2023
- */
 @RestController
 @RequestMapping("/photo")
 @AllArgsConstructor

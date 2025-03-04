@@ -3,11 +3,6 @@ package ru.checkdev.notification.domain;
 import java.util.Map;
 import java.util.Objects;
 
-/**
- * @author Petr Arsentev (parsentev@yandex.ru)
- * @version $Id$
- * @since 0.1
- */
 public class Notify {
     private String template;
     private String email;

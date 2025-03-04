@@ -29,12 +29,6 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-/**
- * FeedbackController TEST
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 25.10.2023
- */
 @SpringBootTest(classes = MockSrv.class)
 @RunWith(SpringRunner.class)
 @AutoConfigureMockMvc

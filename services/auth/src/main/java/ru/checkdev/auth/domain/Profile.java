@@ -9,10 +9,6 @@ import javax.persistence.*;
 import java.util.Calendar;
 import java.util.List;
 
-/**
- * @author parsentev
- * @since 25.09.2016
- */
 @Entity(name = "profile")
 public class Profile {
     @Transient

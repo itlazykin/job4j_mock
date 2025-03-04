@@ -16,12 +16,6 @@ import java.util.Objects;
 
 import static ru.job4j.site.controller.RequestResponseTools.getToken;
 
-/**
- * CheckDev пробное собеседование
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 18.09.2023
- */
 @Controller
 @RequestMapping("/persons")
 @Slf4j

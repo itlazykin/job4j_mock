@@ -11,10 +11,6 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.*;
 
-/**
- * @author Dmitry Stepanov, user Dmitry
- * @since 05.10.2023
- */
 class RequestResponseToolsTest {
 
     @Test

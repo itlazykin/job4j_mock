@@ -7,13 +7,6 @@ import java.util.UUID;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * 3. Мидл
- * Класс дополнительных функций телеграм бота, проверка почты, генерация пароля.
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 12.09.2023
- */
 public class TgConfig {
     private static final ObjectMapper MAPPER = new ObjectMapper();
     private static final Pattern EMAIL_PATTERN = Pattern.compile("\\w+([\\.-]?\\w+)*@\\w+([\\.-]?\\w+)*\\.\\w{2,4}");

@@ -9,11 +9,6 @@ import java.util.*;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.core.Is.is;
 
-/**
- * @author Petr Arsentev (parsentev@yandex.ru)
- * @version $Id$
- * @since 0.1
- */
 public class TemplateGenerateTest {
     @Test
     public void whenTemplateHasLoopThenRenderTable() throws IOException, TemplateException {

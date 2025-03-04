@@ -12,10 +12,6 @@ import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertThat;
 
-/**
- * @author olegbelov
- * @since 20.12.2016
- */
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class TemplateTest {

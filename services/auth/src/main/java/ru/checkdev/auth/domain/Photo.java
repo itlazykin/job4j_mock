@@ -7,11 +7,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-/**
- * @author Hincu Andrei on 27.05.2018.
- * @version $Id$.
- * @since 0.1.
- */
 @Entity(name = "photos")
 public class Photo {
     @Id

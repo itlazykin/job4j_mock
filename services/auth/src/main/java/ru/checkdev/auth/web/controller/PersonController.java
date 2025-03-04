@@ -21,10 +21,6 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
-/**
- * @author parsentev
- * @since 30.09.2016
- */
 @RestController
 @RequestMapping("/person")
 public class PersonController {

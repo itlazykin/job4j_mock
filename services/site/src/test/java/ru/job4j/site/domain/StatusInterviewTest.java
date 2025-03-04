@@ -4,13 +4,6 @@ import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 
-/**
- * CheckDev пробное собеседование
- * TypeInterviewsTest
- *
- * @author Dmitry Stepanov
- * @version 08.10.2023 01:18
- */
 class StatusInterviewTest {
     @Test
     void whenUnknownGetID0GetInfoThenTrue() {

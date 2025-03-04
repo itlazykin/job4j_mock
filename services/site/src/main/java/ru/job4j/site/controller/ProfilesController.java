@@ -8,13 +8,6 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import ru.job4j.site.service.ProfilesService;
 
-/**
- * CheckDev пробное собеседование
- * ProfilesController класс обработки запросов профилей.
- *
- * @author Dmitry Stepanov
- * @version 23.04.2023T10:31
- */
 @Controller
 @RequestMapping("/profiles")
 @Slf4j

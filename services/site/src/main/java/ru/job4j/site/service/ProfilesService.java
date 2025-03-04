@@ -10,13 +10,6 @@ import ru.job4j.site.dto.ProfileDTO;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * CheckDev пробное собеседование
- * ProfileService класс обработки логики с моделью ProfileDTO
- *
- * @author Dmitry Stepanov
- * @version 23.09.2023T03:05
- */
 @Service
 @AllArgsConstructor
 @Slf4j

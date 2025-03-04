@@ -10,12 +10,6 @@ import ru.checkdev.mock.service.FeedbackService;
 
 import java.util.List;
 
-/**
- * FeedbackController rest controller для работы с сущностью Feedback
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 25.10.2023
- */
 @RestController
 @RequestMapping("/feedback")
 @AllArgsConstructor

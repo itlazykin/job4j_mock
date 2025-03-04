@@ -11,12 +11,6 @@ import ru.checkdev.mock.repository.FeedbackRepository;
 import java.util.List;
 import java.util.Optional;
 
-/**
- * Слой бизнес логики для работы с DAO и DTO сущности Feedback.
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 25.10.2023
- */
 @Service
 @AllArgsConstructor
 @Slf4j

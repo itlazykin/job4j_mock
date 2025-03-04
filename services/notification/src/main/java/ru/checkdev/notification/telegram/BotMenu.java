@@ -9,13 +9,6 @@ import ru.checkdev.notification.telegram.action.Action;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * 3. Мидл
- * Реализация меню телеграм бота.
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 12.09.2023
- */
 public class BotMenu extends TelegramLongPollingBot {
     private final Map<String, String> bindingBy = new ConcurrentHashMap<>();
     private final Map<String, Action> actions;

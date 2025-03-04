@@ -20,8 +20,6 @@ public class InterviewsController {
 
     private final InterviewService interviewService;
 
-    /*Аннотация не работает
-    @PreAuthorize("isAuthenticated()") */
     @GetMapping("/")
     public ResponseEntity<Page<Interview>> findAll(
             @RequestParam(required = false, defaultValue = "0") int page,

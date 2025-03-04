@@ -11,13 +11,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 import ru.job4j.site.dto.PersonDTO;
 
-/**
- * CheckDev пробное собеседование
- * Сервис обработки пользователя (получение отправка)
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 18.09.2023
- */
 @Service
 @Slf4j
 @AllArgsConstructor

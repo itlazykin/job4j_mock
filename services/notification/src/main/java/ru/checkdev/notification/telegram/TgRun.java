@@ -15,15 +15,6 @@ import ru.checkdev.notification.telegram.service.TgAuthCallWebClint;
 import java.util.List;
 import java.util.Map;
 
-/**
- * 3. Мидл
- * Инициализация телеграм бот,
- * username = берем из properties
- * token = берем из properties
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 12.09.2023
- */
 @Component
 @Slf4j
 public class TgRun {

@@ -9,13 +9,6 @@ import ru.checkdev.mock.dto.FeedbackDTO;
 
 import java.util.List;
 
-/**
- * Слой persistence для, хранение и получения модели Feedback
- * в базе данных.
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 25.10.2023
- */
 @Repository
 public interface FeedbackRepository extends JpaRepository<Feedback, Integer> {
 

@@ -17,12 +17,6 @@ import java.util.List;
 
 import static org.assertj.core.api.Assertions.*;
 
-/**
- * FeedbackRepository test
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 25.10.2023
- */
 @DataJpaTest
 @RunWith(SpringRunner.class)
 class FeedbackRepositoryTest {

@@ -13,13 +13,6 @@ import ru.checkdev.auth.service.PhotoService;
 
 import java.io.IOException;
 
-/**
- * .
- *
- * @author Hincu Andrei (andreih1981@gmail.com) by 30.05.18;
- * @version $Id$
- * @since 0.1
- */
 @Controller
 public class DownloadController {
     final private PhotoService photoService;

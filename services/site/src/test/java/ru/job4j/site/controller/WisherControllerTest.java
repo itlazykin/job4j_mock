@@ -17,10 +17,6 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.print;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 
-/**
- * @author Dmitry Stepanov, user Dmitry
- * @since 13.10.2023
- */
 @SpringBootTest(classes = WisherController.class)
 @AutoConfigureMockMvc
 class WisherControllerTest {

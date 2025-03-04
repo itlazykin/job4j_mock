@@ -22,12 +22,6 @@ import java.util.Map;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.when;
 
-/**
- * WisherServiceWebClient TEST
- *
- * @author Dmitry Stepanov, user Dmitry
- * @since 13.10.2023
- */
 @ExtendWith(MockitoExtension.class)
 class WisherServiceWebClientTest {
 
